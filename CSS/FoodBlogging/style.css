@@ -1,0 +1,609 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav1{
+    display: none;
+}
+
+.header{
+    width: 15%;
+    background-color: ghostwhite;
+}
+
+.logoDiv{
+    width: 100%;
+    
+}
+
+.logo img{
+    width: 100%;
+    height: 30vh;
+    padding-left: 5%;
+}
+
+
+.side{
+    width: 90%;
+  
+}
+
+.side ul{
+       
+       display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       
+                             
+   }
+
+
+   .side ul li{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 6vh;
+
+}
+
+.side ul li a{
+    color:black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+}
+
+
+.wrapper{
+ width: 85%;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+
+}
+
+.article{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ 
+ 
+}
+
+.banner{
+    width: 99%;
+    height: 61vh;
+    background-color: white;
+    background-image: url(images/main2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 62vh;
+    border: solid 1px gainsboro;
+    margin-left: 0.5%;
+   
+    }
+
+    
+
+    .nav,.nav1{
+        width: 100%;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+       
+    }
+
+    .nav ul{
+           
+           display: flex;
+           flex-wrap: nowrap;
+                                 
+       }
+       
+     .nav ul li{
+           width: 100%;
+           height: 5vh;
+           background-color:gainsboro;
+           margin-bottom: 2vh;
+           border: 1px solid darkblue;
+           text-align: center;
+           padding-top: 1vh;
+       
+       }
+       
+       .nav ul li a{
+           color: darkblue;
+           text-decoration: none;
+           
+       }
+
+    
+       .bar{
+        width: 100%;
+        background-color: seashell;
+        display: flex;
+        flex-wrap: nowrap;
+      
+    }
+
+    .sub{
+        width: 40%;
+        
+    }
+
+    .sub h3{
+        text-align: center;
+        padding-top: 5vh;
+        padding: 3.4%;
+    }
+
+
+    .searchBar{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .searchBar input{
+        width:35%;
+        height: 5vh;
+        margin-left: 56%;
+        
+    }
+
+    .searchBar button{
+        width: 8%;
+        height: 5vh;
+        background-color: black;
+        color: white;
+    }
+
+    .aside{
+        width: 100%;
+        padding-top: 2vh;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+
+    .first, .second, .third, .fourth{
+        width:22.75%;
+        
+    }
+    .box{
+        width: 100%;
+        
+    }
+
+    .box img {
+        width: 100%;
+        height: 19.8vh;
+        
+      }
+
+    .box1{
+        width: 100%;
+        padding-bottom: 2vh;
+        
+    }
+
+    .box1 h3{
+        text-transform: capitalize;
+        text-align: center;
+        padding: 2%;
+        color: darkblue;
+
+
+    }
+
+    .box1 p{
+        text-align: justify;
+        padding: 2%;
+        
+
+    }
+
+    .box1 h4{
+        color: darkblue;
+        text-align: center;
+        padding: 3%;
+        text-decoration: underline;
+
+    }
+
+    
+    .footer{
+        width: 100%;
+        background-color: gainsboro;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2vh;
+    }
+
+    .copy{
+        width: 60%;
+        padding-left: 45%;
+        padding-top: 4vh;
+    }
+
+    .social{
+        width: 40%;
+        padding-left: 25%;
+        padding-top: 2vh;
+    }
+
+    .social ul{
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        align-items: center;
+        
+                              
+    }
+ 
+ 
+    .social ul li{
+     width: 15%;
+      
+ }
+ 
+ .social ul li a{
+     color:black;
+     text-decoration: none;
+
+     
+ }
+
+  
+@media(max-width:1080px){
+
+    .nav1{
+        display: none;
+    }
+
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side{
+        width: 60%;
+        background-color: white;
+    }
+
+    .side ul{
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+       
+                              
+    }
+ 
+ 
+    .side ul li{
+     width: 20%;
+     text-align: center;
+     padding-top: 6vh;
+ 
+ }
+ 
+ .side ul li a{
+     color:black;
+     font-size: 1rem;
+     text-decoration: none;
+     
+ }
+
+    
+.logoDiv{
+    width: 40%;
+        
+}
+
+.logo{
+    width: 100%;
+    background-color:white;
+    padding-top: 1vh;
+    padding-left: 4%;
+    
+}
+
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.wrapper,.article,.banner{
+    width: 100%;
+    background-color: white;
+    padding-top: 0vh;
+    margin-top: 0%;
+   }
+
+   .banner{
+    margin-left: 0%;
+    border: 1px solid gainsboro;
+    
+   }
+
+   .nav{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+   }
+
+   .sub{
+    width: 50%;
+}
+
+.sub h3{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+
+.searchBar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.searchBar input{
+    width:45%;
+    height: 5vh;
+    margin-left: 44%;
+    
+}
+
+.searchBar button{
+    width: 9%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+
+    margin-top: 2%;
+
+}
+
+.copy{
+    width: 60%;
+    padding-left: 40%;
+    
+}
+
+
+    
+
+}
+
+@media(max-width:650px){
+
+    .nav1{
+        width: 100%;
+        display: contents;
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    }
+
+    .nav1 ul{
+           width: 100%;
+           display: flex;
+           flex-wrap: nowrap;
+                                 
+       }
+       
+       .nav1 ul li{
+           width: 100%;
+           height: 5vh;
+           background-color:gainsboro;
+           margin-bottom: 2vh;
+           border: 1px solid darkblue;
+           text-align: center;
+           padding-top: 1vh;
+       
+       }
+       
+       .nav1 ul li a{
+           color: darkblue;
+           text-decoration: none;
+           
+       }
+
+    
+   .header{
+    width: 100%;
+    background-color: white;
+   }
+
+.logoDiv{
+    width: 100%;
+    margin-bottom: 2vh;
+    
+}
+
+.logo{
+    width: 100%;
+    background-color:white;
+    padding-left: 40%;
+    
+}
+
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+
+ .side{
+    display:none;
+    padding-top: 0vh;
+   }
+
+.wrapper,.article,.banner{
+    width: 100%;
+    background-color: white;
+    padding-top: 0vh;
+    margin-top: 0%;
+   }
+
+   .banner{
+    margin-left: 0%;
+    border: 1px solid gainsboro;
+  }
+
+   .nav{
+    display: none;
+    width: 0%;
+    height: 0vh;
+   }
+
+   
+.bar{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    
+}
+
+.sub{
+    width: 100%;
+    padding-top: 3vh;
+    background-color: white;
+}
+
+.sub h3{
+    text-align: center;
+    padding-top: 0vh;
+   
+}
+
+
+.searchBar{
+    width: 100%;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.searchBar input{
+    width:60%;
+    margin-left: 0%;
+    
+}
+
+.searchBar button{
+    width: 30%;
+     background-color: black;
+    color: white;
+}
+
+
+   .aside{
+    width: 100%;
+    background-color: white;
+    display: flex;     
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    
+   }
+
+   .first, .second, .third, .fourth{
+    width:100%;
+    border-top: 1px solid gainsboro;
+    padding-bottom: 0vh;
+    
+}
+
+   .box{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2vh;
+   }
+
+   .box1{
+    width:50%;
+    margin-left: 25%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+   }
+
+
+.footer{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+ }
+
+ .copy{
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 35%;
+    padding-top: 1vh;
+    
+}
+
+.social{
+    width: 100%;
+    margin-left: 20%;
+    padding-bottom: 1vh;
+}  
+
+.social ul{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items: center;
+    
+                             
+}
+
+
+.social ul li{
+ width: 5%;
+ text-align: center;
+ padding-top: 1vh;
+
+}
+
+.social ul li a{
+ width: 50px;
+ height: 50px;
+ color:black;
+ text-decoration: none;
+
+ 
+}
+
+      
+    
+    
+}
